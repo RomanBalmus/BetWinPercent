@@ -68,7 +68,7 @@ class ViewController: UIViewController , UITextFieldDelegate{
         awayResultLabel.text = String(totalResultA.roundTo(places: 1))
         homeResultLabel.text = String(totalResultH.roundTo(places: 1))
         
-        closekeyboard()
+        closekeyboard() //close keyboard when click
 
 
     }
